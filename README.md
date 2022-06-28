@@ -6,6 +6,26 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## Views in Project
+<img width="1367" alt="Screen Shot 2022-06-28 at 15 48 57" src="https://user-images.githubusercontent.com/61888196/176182692-a510e906-2ac9-4ba9-a69b-44e460ddecb8.png"><img width="1313" alt="Screen Shot 2022-06-28 at 15 49 14" src="https://user-images.githubusercontent.com/61888196/176182718-6f3f70e1-9733-4be5-9b9d-d1db1f7a4578.png">
+
+1) Clone this repo
+2) cd Laravel_CRUD_withORM
+```
+cd Laravel_CRUD_withORM
+```
+3) Copy .env.example file to .env file
+4 )Create database elocrud (you can change database name)
+5)
+```
+composer install
+```
+6)Run migration
+```
+php artisan migrate
+```
+
+
 
 ## About Laravel
 
@@ -58,6 +78,9 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+
+
 
 ## License
 
